@@ -13,7 +13,7 @@
   --error: #f43f5e;             // Rose (expenses)
   
   /* --- Text --- */
-  --text-main: #f8fafc;         // Almost white
+  --text-main: black;         // Almost white
   --text-muted: #64748b;        // Gray subtitle
   
   /* --- Effects --- */
@@ -24,7 +24,7 @@
   
   --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
-  --font-main: 'Inter', system-ui, sans-serif;
+  --font-main: 'Inter', sans-serif;
   
   --fs-xs: 0.75rem;   // 12px
   --fs-sm: 0.875rem;  // 14px

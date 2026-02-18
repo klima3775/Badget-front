@@ -1,7 +1,5 @@
+@use 'variables';
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-
-@import 'variables';
 
 * {
   margin: 0;
@@ -13,12 +11,19 @@ body {
   font-family: var(--font-main);
   background-color: var(--bg-main);
   color: var(--text-main);
+  width: 100%;
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
   min-height: 100vh;
-  overflow-x: hidden; 
+  overflow-x: hidden;
+  
+  // Full-page background
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; // Фон не скролиться разом з контентом
 }
 
 a {
@@ -27,5 +32,5 @@ a {
 }
 
 button, input {
-  font-family: inherit; 
+  font-family: inherit; /* Щоб елементи форми не скидали шрифт на дефолтний */
 }
