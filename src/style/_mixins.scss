@@ -1,0 +1,17 @@
+
+@mixin title-gradient {
+  font-family: var(--font-main);
+  font-size: var(--fs-2xl);
+  font-weight: var(--fw-bold);
+  background: linear-gradient(45deg, var(--text-main), var(--accent-primary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@mixin glass-panel {
+  background: var(--bg-card);
+  backdrop-filter: var(--glass-blur);
+  border: var(--glass-border);
+  border-radius: var(--radius-xl);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}

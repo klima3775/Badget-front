@@ -1,0 +1,41 @@
+
+
+:root {
+  /* --- Color Palette --- */
+  --bg-main: #080a0f;           // Deep space (background)
+  --bg-card: rgba(255, 255, 255, 0.03); // Glass (card base)
+  --bg-input: rgba(0, 0, 0, 0.3); // Dark inputs
+  
+  --accent-primary: #6366f1;    // Indigo (primary color)
+  --accent-glow: rgba(99, 102, 241, 0.5);
+  
+  --success: #10b981;           // Emerald (income)
+  --error: #f43f5e;             // Rose (expenses)
+  
+  /* --- Text --- */
+  --text-main: #f8fafc;         // Almost white
+  --text-muted: #64748b;        // Gray subtitle
+  
+  /* --- Effects --- */
+  --glass-blur: blur(14px);     // Glass blur strength
+  --glass-border: 1px solid rgba(255, 255, 255, 0.08);
+  --radius-xl: 24px;            // Border radius for pages/cards
+  --radius-md: 12px;            // Border radius for buttons/inputs
+  
+  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+  --font-main: 'Inter', system-ui, sans-serif;
+  
+  --fs-xs: 0.75rem;   // 12px
+  --fs-sm: 0.875rem;  // 14px
+  --fs-base: 1rem;    // 16px
+  --fs-lg: 1.25rem;   // 20px
+  --fs-xl: 1.5rem;    // 24px
+  --fs-2xl: 2.5rem;   // 40px
+
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+}
