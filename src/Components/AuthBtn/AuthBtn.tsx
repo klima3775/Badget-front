@@ -7,7 +7,7 @@ export default function ButtonColors() {
       variant="solid"
       color="success"
       sx={{
-        width: 'clamp(160px, 35vw, 220px)', // середина між двома варіантами
+        width: 'clamp(160px, 35vw, 220px)',
         py: 2,
         fontSize: 'clamp(0.9rem, 2.2vw, 1.1rem)',
         borderRadius: '20px',

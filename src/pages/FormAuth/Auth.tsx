@@ -1,18 +1,18 @@
 import backgroundImage from '../../assets/BacgroundAuth.png';
-import boy from '../../assets/boy.png';
 import ButtonColors from '../../Components/AuthBtn/AuthBtn';
-import './Auth.scss';
+import Boy from '../../Components/Boy/Boy';
+import s from './Auth.module.scss';
 
 function Auth() {
   return (
     <div
-      className="auth-page"
+      className={s.authPage}
       style={{ backgroundImage: `url(${backgroundImage})` }}
     >
-      <div className="auth-container">
-        <img src={boy} alt="Boy" />
+      <div className={s.authContainer}>
+        <Boy />
       </div>
-      <div className="auth-buttons">
+      <div className={s.authButtons}>
         <ButtonColors />
       </div>
     </div>

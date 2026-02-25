@@ -1,5 +1,9 @@
 @use 'variables';
 
+html {
+  overflow: hidden;
+  height: 100%;
+}
 
 * {
   margin: 0;
@@ -12,18 +16,18 @@ body {
   background-color: var(--bg-main);
   color: var(--text-main);
   width: 100%;
+  height: 100%;
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  min-height: 100vh;
-  overflow-x: hidden;
-  
+  overflow: hidden;
+
   // Full-page background
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed; // Фон не скролиться разом з контентом
+  background-attachment: fixed;
 }
 
 a {
@@ -31,6 +35,7 @@ a {
   color: inherit;
 }
 
-button, input {
-  font-family: inherit; /* Щоб елементи форми не скидали шрифт на дефолтний */
+button,
+input {
+  font-family: inherit;
 }
