@@ -1,0 +1,25 @@
+.authPage {
+  min-height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding-bottom: 5vh;
+
+  .authContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    .authButtons {
+      margin-bottom: 6%;
+      margin-top: -4%;
+    }
+  }
+}

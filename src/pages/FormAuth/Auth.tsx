@@ -1,6 +1,6 @@
 import backgroundImage from '../../assets/BacgroundAuth.png';
 import boy from '../../assets/boy.png';
-import ButtonColors from '../../Components/AuthBtn';
+import ButtonColors from '../../Components/AuthBtn/AuthBtn';
 import './Auth.scss';
 
 function Auth() {
